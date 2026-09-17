@@ -1,0 +1,110 @@
+.container {
+  width: 400px;
+  padding-block: 20px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 20px;
+  border-radius: 30px;
+  justify-content: center;
+  transform: translateY(-5px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
+}
+.container:hover {
+  background-color: #f1f1f1;
+  transition: all 0.3s ease;
+
+  transform: translateY(-20px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
+}
+
+.addButton {
+  background-color: #494745;
+  color: #ffffff;
+  padding: 10px 20px;
+  border-radius: 8px;
+  font-weight: 500;
+  transition: background-color 0.2s ease;
+}
+
+.addButton:hover:not(:disabled) {
+  background-color: #93908c;
+}
+
+.addButton:disabled {
+  background-color: #cccccc;
+  cursor: not-allowed;
+}
+
+.img {
+  height: 340px;
+  object-fit: cover;
+  border-radius: 12px;
+}
+
+.cost {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+.text {
+  font-size: 20px;
+  font-weight: 500;
+  letter-spacing: 2px;
+}
+.category {
+  color: #5b5b5b;
+}
+
+.button {
+  background-color: #5b5b5b;
+}
+
+/* Контейнер для кнопок (сердечко и корзина) */
+.actions {
+  display: flex;
+  align-items: center;
+  gap: 12px; /* Расстояние между кнопками */
+  margin-top: 16px;
+}
+
+/* Опционально: стили для кнопки-сердечка, если нужно что-то кроме inline-стилей в компоненте */
+.heartBtn {
+  transition:
+    transform 0.2s ease,
+    opacity 0.2s;
+}
+.heartBtn:hover {
+  transform: scale(1.1);
+  opacity: 0.8;
+}
+
+/* Базовый стиль кнопки */
+.heartBtn {
+  transition: transform 0.2s ease;
+  display: inline-block;
+}
+
+/* Контур сердечка по умолчанию (серый) */
+.heartEmpty {
+  fill: none;
+  stroke: #999;
+}
+
+/* Сердечко, которое уже в избранном (всегда красное) */
+.heartFilled {
+  fill: red;
+  stroke: red;
+}
+
+/* 🔥 ГЛАВНОЕ: При наведении на кнопку заливаем красным */
+.heartBtn:hover .heartEmpty,
+.heartBtn:hover .heartFilled {
+  fill: red;
+  stroke: red;
+}
+
+/* Анимация увеличения при наведении */
+.heartBtn:hover {
+  transform: scale(1.1);
+}

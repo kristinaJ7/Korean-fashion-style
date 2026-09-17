@@ -1,0 +1,41 @@
+.modal {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  width: 50%;
+  transform: translate(-50%, -50%);
+  margin: auto;
+  padding: 60px 80px 60px;
+  background-color: #ffffff;
+  border-radius: 40px;
+  z-index: 1;
+}
+.button {
+  display: flex;
+  width: 24px;
+  height: 24px;
+  outline: none;
+  border: none;
+  cursor: pointer;
+  background-color: rgba(0, 0, 0, 0);
+  margin-left: auto;
+  padding: 0;
+}
+
+/* Затемнённый фон на весь экран */
+.backdrop {
+  position: fixed;
+  inset: 0; /* то же самое, что top/left/right/bottom: 0 */
+  background: rgba(0, 0, 0, 0.2); /* полупрозрачный чёрный */
+  z-index: 6;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.content {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch; /* лучше, чем center, для списков */
+  padding: 0 40px;
+  z-index: 4;
+}

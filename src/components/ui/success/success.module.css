@@ -1,0 +1,32 @@
+/* src/components/ui/success/success.module.css */
+.content {
+  font-weight: 600;
+  padding: 20px 40px;
+  background-color: #e4e4e4;
+  color: #575353;
+  display: flex;
+  gap: 20px;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 20px;
+}
+.successImg {
+  width: 200px;
+  height: 200px;
+}
+
+.closeBtn {
+  background-color: #929292;
+  color: #ffffff;
+  border-radius: 20px;
+  padding: 10px 60px;
+  transition: background-color 0.2s;
+}
+
+.closeBtn:hover {
+  background-color: #d0d0d0;
+}
+
+.closeBtn:active {
+  transform: scale(0.98);
+}

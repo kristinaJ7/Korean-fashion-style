@@ -1,0 +1,59 @@
+.container {
+  max-width: 1240px;
+  border-radius: 50px;
+  margin: 0 auto;
+  background-color: #ededed;
+  padding: 30px;
+}
+
+.wrapCenter {
+  margin: auto;
+  width: 480px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+.wrapCentertitle {
+  font-size: 36px;
+  color: #4a4a4a;
+}
+.form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 24px;
+}
+
+.form div {
+  width: 100%;
+  text-align: right;
+}
+
+.input {
+  background-color: #c7c7c7;
+  border-radius: 40px;
+  padding: 20px 50px;
+}
+.button {
+  display: flex;
+  justify-content: center;
+  background-color: #4d4d4d;
+  color: #ffffff;
+  padding: 15px 25px;
+  border-radius: 20px;
+  width: 100%;
+}
+
+.question {
+  color: #939393;
+}
+
+.link {
+  color: #0606bc;
+}
+
+.error {
+  color: #ff0000;
+  text-align: center;
+}

@@ -1,0 +1,93 @@
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  padding: 16px;
+}
+
+.title {
+  margin: 0;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+/* Скролл только для списка товаров (не для заголовка) */
+.listContainer {
+  flex: 1;
+  max-height: 400px; /* подстрой под свою модалку */
+  overflow-y: auto;
+}
+
+.item {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 12px 0;
+  border-bottom: 1px solid #eee;
+}
+
+.image {
+  width: 80px;
+  height: 80px;
+  object-fit: cover;
+  border-radius: 6px;
+}
+
+.info {
+  flex: 1;
+  min-width: 0;
+}
+
+.name {
+  font-weight: 500;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.category {
+  font-size: 13px;
+  color: #888;
+  margin-top: 4px;
+}
+
+.addToCartBtn {
+  padding: 8px;
+  background-color: #8f8d8c;
+  color: white;
+  border: none;
+  border-radius: 6px;
+
+  transition: background-color 0.2s ease;
+}
+
+.addToCartBtn:hover {
+  background-color: #484645;
+}
+
+.addToCartBtn:active {
+  transform: translateY(1px);
+}
+
+/* Контейнер карточки */
+.item {
+  display: flex;
+  gap: 12px;
+  padding: 12px;
+  border: 1px solid #e5e7eb;
+  border-radius: 8px;
+  background: #ffffff;
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 8px;
+}
+
+@media (max-width: 950px) {
+  .item {
+    flex-direction: column;
+  }
+}

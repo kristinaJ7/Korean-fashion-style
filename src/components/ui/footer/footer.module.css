@@ -1,0 +1,43 @@
+.footer {
+  background-color: #424242;
+  color: #ffffff;
+  padding: 40px;
+}
+.blocksWrapper {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 30px;
+  padding: 20px;
+}
+.block .linkList {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+.title {
+  letter-spacing: 1.6px;
+}
+.subtitle {
+  font-size: 14px;
+  color: #b3b3b3;
+  line-height: 1.5;
+}
+.navLink {
+  color: #a7a7a7;
+}
+.navLink:hover {
+  color: #eadfdf;
+}
+.copyright {
+  border-top: 1px solid #333333;
+  color: #888888;
+  text-align: center;
+  padding: 20px;
+}
+@media (max-width: 992px) {
+  .blocksWrapper {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+}

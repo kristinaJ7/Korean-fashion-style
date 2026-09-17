@@ -1,0 +1,37 @@
+.privacyContainer {
+  margin: 50px;
+  color: #2c2c2c;
+  display: flex;
+  gap: 30px;
+  flex-direction: column;
+  background-color: #e7e7e7;
+  padding: 20px;
+  border-radius: 30px;
+}
+.title {
+  font-size: 3rem;
+  font-weight: 900;
+  margin-bottom: 50px;
+  text-align: center;
+}
+.section {
+  background: #f9f9f9;
+  padding: 32px;
+  border-radius: 16px;
+  transition:
+    transform 0.2s ease,
+    box-shadow 0.2s ease;
+}
+.section:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.08);
+}
+.sectionTitle {
+  color: #5d5959;
+}
+.updated {
+  text-align: center;
+  margin-top: 50px;
+  color: #aaa;
+  font-size: 0.85rem;
+}

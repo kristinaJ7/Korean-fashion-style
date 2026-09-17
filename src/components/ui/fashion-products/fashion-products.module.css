@@ -1,0 +1,50 @@
+.productsGrid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 40px;
+
+  margin: 50px;
+  padding: 20px;
+  justify-items: center;
+}
+
+/* --- АДАПТИВНОСТЬ --- */
+@media (max-width: 1400px) {
+  .productsGrid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+    margin: 0px;
+    padding: 0px;
+  }
+}
+
+.productsGridWrapper {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.loadMoreBtn {
+  padding: 1rem 2rem;
+  background-color: #fff;
+  color: #333;
+  border: 2px solid #333;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  margin-top: 2rem;
+  align-self: center; /* Центрируем кнопку */
+  border-radius: 10px;
+}
+
+.loadMoreBtn:hover {
+  background-color: #333;
+  color: #fff;
+}
+
+.allLoadedMessage {
+  text-align: center;
+  color: #888;
+  margin-top: 2rem;
+  font-size: 0.9rem;
+}

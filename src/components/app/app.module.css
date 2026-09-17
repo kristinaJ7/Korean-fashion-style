@@ -1,0 +1,9 @@
+.app {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+body {
+  margin: 0px;
+}

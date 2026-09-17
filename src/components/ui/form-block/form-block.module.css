@@ -1,0 +1,99 @@
+.form {
+  background-color: #efefef;
+  border-radius: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  padding: 30px;
+}
+
+/* Блок строго под фото */
+.formWrapperimg {
+  width: 100%;
+  min-height: 500px; /* высота только под фото */
+  border-radius: 30px;
+  /* Картинка из переменной */
+  background-image: var(--bg-image);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+
+  position: relative;
+  overflow: hidden;
+
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+/* Оверлей — отдельный блок, а не псевдоэлемент */
+.overlay {
+  position: absolute;
+  inset: 0;
+  background: rgb(74 74 74 / 50%);
+  z-index: 1;
+}
+
+/* Текст — поверх оверлея */
+.formtext {
+  position: relative; /* обязательно! */
+  z-index: 2; /* выше оверлея */
+  text-align: center;
+  color: #ffffff;
+  padding: 40px 20px; /* чтобы не прилипал к краям */
+}
+.formfields {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  flex-direction: column;
+  width: 100%;
+}
+.fieldsGroup {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+
+.input,
+.textarea {
+  border-radius: 20px;
+  padding: 20px 60px;
+  background-color: #fff;
+  color: #000;
+}
+
+.input:focus,
+.textarea:focus {
+  border: none;
+  box-shadow: 0 0 0 2px #5f5f5e;
+  outline: none;
+}
+.submitBtn {
+  background-color: #3a3a3a;
+  color: #ffffff;
+  border-radius: 20px;
+  padding: 20px 30px;
+}
+.visuallyHidden {
+  position: absolute;
+  overflow: hidden;
+  clip: rect(0 0 0 0);
+  height: 1px;
+  width: 1px;
+  margin: -1px;
+  padding: 0;
+  border: 0;
+}
+
+@media (max-width: 1200px) {
+  .form {
+    flex-direction: column;
+    gap: 20px;
+    padding: 10px;
+  }
+}

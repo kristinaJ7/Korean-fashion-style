@@ -1,0 +1,107 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 24px 40px;
+  background-color: #e4e4e4;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+  position: relative;
+}
+.logo,
+.mainNav ul,
+.userActions {
+  display: flex;
+  gap: 24px;
+}
+.logoText {
+  font-weight: 900;
+  font-size: 24px;
+  color: #4a4646;
+}
+.navLink {
+  color: #4a4646;
+  font-size: 14px;
+  font-weight: 500;
+}
+.navLink:hover {
+  color: #000000;
+}
+.navLink:focus {
+  color: #919090;
+}
+.actionBtn {
+  position: relative;
+}
+.badge {
+  position: absolute;
+  top: -4px;
+  right: -6px;
+  background-color: #d93025;
+  color: #fff;
+  font-size: 10px;
+  padding: 2px 6px;
+  border-radius: 10px;
+}
+.iconImg {
+  width: 24px;
+  height: 24px;
+  display: block;
+  object-fit: contain;
+}
+
+.menuToggleBtn {
+  display: none; /* скрыто по умолчанию */
+  background: none;
+  cursor: pointer;
+  padding: 8px;
+}
+
+.menuIcon {
+  width: 24px;
+  height: 24px;
+  fill: #4a4646;
+}
+
+.actionBtn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+}
+
+/* Опционально: чтобы картинка не «прыгала»*/
+.iconImg {
+  display: block;
+  height: 20px;
+  width: auto;
+}
+/* --- АДАПТИВНОСТЬ --- */
+@media (max-width: 950px) {
+  .menuToggleBtn {
+    display: flex;
+  }
+  .mainNav {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    box-shadow: 0px 16px 20px 0px rgba(0, 0, 0, 0.1);
+    flex-direction: column;
+    z-index: 3;
+    background-color: #ededed;
+  }
+  /* Показываем меню, если у .mainNav есть класс .is-open */
+  .mainNav.is-open {
+    display: flex;
+  }
+  .navList {
+    flex-direction: column;
+  }
+  .navLink {
+    display: block;
+    padding: 16px;
+  }
+  .mainNav {
+    display: none;
+  }
+}

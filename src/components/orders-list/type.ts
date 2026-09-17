@@ -1,0 +1,7 @@
+import { TOrder } from "../../utils/types";
+
+export interface OrdersListUIProps {
+  orderByDate: TOrder[];
+
+  onOrderClick: (order: TOrder) => void;
+}

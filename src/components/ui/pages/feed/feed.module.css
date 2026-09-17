@@ -1,0 +1,58 @@
+.containerMain {
+  display: flex;
+  flex-direction: column;
+  max-width: 1240px;
+  margin-left: auto;
+  margin-right: auto;
+  min-height: 600px;
+}
+
+.titleBox {
+  width: 100%;
+  max-width: 1240px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.title {
+  color: #4d4949;
+  font-size: 58px;
+}
+.refreshBtn {
+  cursor: pointer;
+  padding: 10px 20px;
+  background-color: #9b9b9b;
+  border-radius: 40px;
+  color: #ffffff;
+}
+
+.refreshBtn:hover {
+  background-color: #d1d1d1;
+}
+
+.main {
+  display: flex;
+  justify-content: space-between;
+  width: 1240px;
+  flex: 1;
+  overflow: hidden;
+  background-color: #dadada;
+  color: #ffffff;
+  border-radius: 50px;
+  padding: 30px;
+}
+
+.columnOrders {
+  width: 608px;
+  flex: 1;
+  min-height: 500px;
+  max-height: calc(90vh - 120px);
+  overflow-y: auto;
+  padding-right: 16px;
+}
+
+.columnInfo {
+  overflow-y: visible;
+  width: 580px;
+  max-height: none;
+}
