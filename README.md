@@ -10,7 +10,10 @@
 
 Магазин корейской одежды 
 
-
+```
+ githubLink: 'https://github.com/kristinaJ7/Korean-fashion-style.git',
+ demoLink: 'https://kristinaj7.github.io/Korean-fashion-style/',
+```
 
 # Стек и зависимости
  - Frontend: React 18, TypeScript 5+
