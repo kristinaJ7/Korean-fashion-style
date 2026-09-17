@@ -1,4 +1,12 @@
 # Pet-Project  "Korean-fashion-style"
+<img width="2340" height="6163" alt="localhost_8080_privacy" src="https://github.com/user-attachments/assets/a00298ed-66f1-4582-8d17-4ce453987146" />
+![Uploading localhost_8080_privacy (7).png…]()
+<img width="2215" height="1802" alt="localhost_8080_privacy (5)" src="https://github.com/user-attachments/assets/49ff6ff9-03ee-44ae-a0ea-2fcd363d7b40" />
+<img width="2195" height="2253" alt="localhost_8080_privacy (3)" src="https://github.com/user-attachments/assets/f53d8a9d-0ad2-44f8-b484-07d8470b4a3c" />
+<img width="2223" height="1802" alt="localhost_8080_privacy (2)" src="https://github.com/user-attachments/assets/368e8f96-cd1a-4b0b-bf61-f2f8a7bf6651" />
+<img width="2223" height="1802" alt="localhost_8080_privacy (1)" src="https://github.com/user-attachments/assets/472543de-49b3-405a-b44a-24e17518e3e5" />
+<img width="2195" height="1802" alt="localhost_8080_privacy (9)" src="https://github.com/user-attachments/assets/a26da3f7-8367-4b53-b323-ecfe158bd09d" />
+<img width="2195" height="1802" alt="localhost_8080_privacy (8)" src="https://github.com/user-attachments/assets/6b5a02d9-b490-473f-b722-1ed364c8970e" />
 
 Магазин корейской одежды 
 
