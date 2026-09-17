@@ -11,8 +11,8 @@
 Магазин корейской одежды 
 
 
- githubLink: 'https://github.com/kristinaJ7/Korean-fashion-style.git',
- demoLink: 'https://kristinaj7.github.io/Korean-fashion-style/',
+- **Source Code:** GitHub Repository - 'https://github.com/kristinaJ7/Korean-fashion-style.git',
+- **Live Demo:**'https://kristinaj7.github.io/Korean-fashion-style/',
 
 
 # Стек и зависимости
